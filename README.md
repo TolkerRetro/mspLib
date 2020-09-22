@@ -19,7 +19,7 @@ Install-Package COMINGSOON
 > *to be able to use the commands. you have to be logged in.*   
 > *you can login with **username** &' **password** or with the **username** &' **ticket***
 
-**Code**
+**example for login**
 
 ```cs
 
