@@ -14,7 +14,7 @@ static async Task Main() {
 
 	var (Result, Error, Success) = await mspClient.GetActorIdByName(actor);
 
-	if (!Success) return;
+	if (!Success || Result.Value == 0) return;
 
 	Console.WriteLine($ "ID: {Result.Value} = {actor}");
 
