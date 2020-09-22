@@ -14,7 +14,7 @@ static async Task Main() {
 
 	var (Result, Error, Success) = await mspClient.GetActorIdByName(actor);
 
-	if (!Success) return;
+	if (!Success || Result.Value == 0) return;
 
 	var AResult = await mspClient.SendAutograph(Result.Value);
 
