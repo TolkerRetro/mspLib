@@ -1,8 +1,6 @@
 
 ![msplib](https://files.catbox.moe/3cggf5.png)
 
-# mspLib
-
 > *the most powerful and best library for moviestarplanet.*   
 > *with msplib you can easily create tools or other things for moviestarplanet.* 
 
