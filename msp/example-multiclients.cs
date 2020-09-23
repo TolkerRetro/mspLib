@@ -1,20 +1,20 @@
 static async Task Main() {
 
-    List<MspClient> multiMsp = new List<MspClient>();
+	List<MspClient> multiMsp = new List<MspClient>();
 
-    for (int i = 0; i < 5; i++) {
-  
-      MspClient mspClient = new MspClient(Server.Germany);
+	for (int i = 0; i < 5; i++) {
 
-      Login mspLogin = await mspClient.Login("Username", "Password");
+		MspClient mspClient = new MspClient(Server.Germany);
 
-      if (!mspLogin.LoggedIn) continue;
+		Login mspLogin = await mspClient.Login("Username", "Password");
 
-      multiMsp.Add(mspClient);
-   
-    }
+		if (!mspLogin.LoggedIn) continue;
 
-    multiMsp.ForEach(async a => await a.SendAutograph(3));
+		multiMsp.Add(mspClient);
 
-    Console.ReadLine();
+	}
+
+	multiMsp.ForEach(async a = >await a.SendAutograph(3));
+
+	Console.ReadLine();
 }
