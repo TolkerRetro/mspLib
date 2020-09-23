@@ -2,9 +2,9 @@ static async Task Main() {
 
 	string username, password, actor;
 
-	username = "Username";
-	password = "Password";
-	actor = "Pixi Star";
+	username    = "Username";
+	password    = "Password";
+	actor       = "Pixi Star";
 
 	MspClient mspClient = new MspClient(Server.Germany);
 
