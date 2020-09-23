@@ -6,9 +6,9 @@ static async Task Main() {
 	password = "Password";
 	actor = "Pixi Star";
 
-	var mspClient = new MspClient(Server.Germany);
+	MspClient mspClient = new MspClient(Server.Germany);
 
-	var mspLogin = await mspClient.Login(username, password);
+	Login mspLogin = await mspClient.Login(username, password);
 
 	if (!mspLogin.LoggedIn) return;
 
@@ -16,7 +16,7 @@ static async Task Main() {
 
 	if (!Success || Result.Value == 0) return;
 
-	var AResult = await mspClient.SendAutograph(Result.Value);
+	SendAutographResult AResult = await mspClient.SendAutograph(Result.Value);
 
 	if (!AResult.Success) return;
 
