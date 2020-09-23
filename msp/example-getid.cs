@@ -6,9 +6,9 @@ static async Task Main() {
 	password    = "Password";
 	actor       = "Pixi Star";
 
-	var mspClient = new MspClient(Server.Germany);
+	MspClient mspClient = new MspClient(Server.Germany);
 
-	var mspLogin = await mspClient.Login(username, password);
+	Login mspLogin = await mspClient.Login(username, password);
 
 	if (!mspLogin.LoggedIn) return;
 
