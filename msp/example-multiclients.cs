@@ -4,14 +4,13 @@ static async Task Main() {
 
 	for (int i = 0; i < 5; i++) {
 
-		MspClient mspClient = new MspClient(Server.Germany);
+	     MspClient mspClient = new MspClient(Server.Germany);
 
-		Login mspLogin = await mspClient.Login("Username", "Password");
+	     Login mspLogin = await mspClient.Login("Username", "Password");
 
-		if (!mspLogin.LoggedIn) continue;
+             if (!mspLogin.LoggedIn) continue;
 
-		multiMsp.Add(mspClient);
-
+	     multiMsp.Add(mspClient);
 	}
 
 	multiMsp.ForEach(async a = >await a.SendAutograph(3));
