@@ -16,7 +16,7 @@ static async Task Main() {
 	if (!Success) return;
 
 	foreach(var pet in Result)
-      await mspClient.LovePet(pet.ActorBonsterRelId);
+           await mspClient.LovePet(pet.ActorBonsterRelId);
 
 	Console.ReadLine();
 
