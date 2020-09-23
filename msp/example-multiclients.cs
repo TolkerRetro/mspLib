@@ -4,9 +4,9 @@ static async Task Main() {
 
     for (int i = 0; i < 5; i++) {
   
-      var mspClient = new MspClient(Server.Germany);
+      MspClient mspClient = new MspClient(Server.Germany);
 
-      var mspLogin = await mspClient.Login("Username", "Password");
+      Login mspLogin = await mspClient.Login("Username", "Password");
 
       if (!mspLogin.LoggedIn) continue;
 
