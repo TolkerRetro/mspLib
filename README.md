@@ -1,7 +1,7 @@
 
 ![msplib](https://files.catbox.moe/lq201t.jpg)
 
-[![Discord Server](https://img.shields.io/discord/708318629112053841?color=darkcyan&label=Discord&logo=Discord&logoColor=white&style=flat-square)](discord.gg/dolo) 
+[![Discord Server](https://img.shields.io/discord/708318629112053841?color=darkcyan&label=Discord&logo=Discord&logoColor=white&style=flat-square)](https://discord.gg/dolo) 
 
 > *the most powerful and best library for moviestarplanet.*   
 > *with msplib you can easily create tools or other things for moviestarplanet.* 
