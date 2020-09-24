@@ -16,12 +16,11 @@ Install-Package COMINGSOON
 
 # Start
 
-> *as soon as the library is installed you can start directly.*  
-> *First you have to create an instance of the class **MspClient**. the parameter is the server where the client connects.*  
-> *to be able to use the commands. you have to be logged in.*   
-> *you can login with **username** &' **password** or with the **username** &' **ticket***
+*as soon as the library is installed you can start directly. First you have to create an instance of the class **MspClient**. the parameter is the server where the client connects. to be able to use the commands. you have to be logged in.*   
 
-**example for login**
+*You can login with **username** &' **password** or with the **username** &' **ticket***
+
+> **example for login**
 
 ```cs
 
