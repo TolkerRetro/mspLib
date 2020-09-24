@@ -20,11 +20,15 @@ Install-Package COMINGSOON
 
 *You can login with **username** &' **password** or with the **username** &' **ticket***
 
-> **example for login**
+> **simple login with keepalive**
 
 ```cs
 
-var mspClient = new MspClient(Server.Germany);
+var mspClient = new MspClient(new MspClientSocket()
+{
+    Server = Server.Germany,
+    KeepAlive = true
+});
 
 var mspLogin = await mspClient.Login("Username", "Password");
 var mspLogin = await mspClient.Login(new TicketLogin() {
