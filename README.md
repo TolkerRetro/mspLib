@@ -47,3 +47,4 @@ for more examples [click here](https://github.com/cydolo/mspLib/tree/master/msp)
 
 documentation of the msplib can be found here [msplibdoc](https://msplib.cbkdz.eu)
  
+for any help join our discord server or [create a new issue](https://github.com/cydolo/mspLib/issues)
