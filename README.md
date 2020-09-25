@@ -2,16 +2,17 @@
 ![msplib](https://files.catbox.moe/lq201t.jpg)
 
 [![Discord Server](https://img.shields.io/discord/708318629112053841?color=darkcyan&label=Discord&logo=Discord&logoColor=white&style=flat-square)](https://discord.gg/dolo) 
+[![Nuget](https://img.shields.io/nuget/v/Dolo.msplib?logo=nuget&style=flat-square)](https://www.nuget.org/packages/Dolo.msplib/)
 
 > *the most powerful and best library for moviestarplanet.*   
 > *with msplib you can easily create tools or other things for moviestarplanet.* 
 
 # Installation
 
-*Install the msplib with the nuget package manager.*
+*Install the msplib with the console **nuget package manager** or browse **MovieStarPlanet** in **visual studio nuget manager***
 
 ```
-Install-Package COMINGSOON
+Install-Package Dolo.msplib -Version 6.1.0
 ```
 
 # Start
