@@ -13,10 +13,9 @@ static async Task Main() {
           (Image Image, string ImageUrl) img = await ServiceCommands.LoadObfuscatedImage(a.ImageUploadId, Server.Germany, ObfuscationType.pictureupload);
 
           if (img.Image != null) 
-	          ImageData.Add((img.ImageUrl, a));
+	         ImageData.Add((img.ImageUrl, a));
     
 	});
 
 	ImageData.ForEach(a = >Console.WriteLine($ "Image: {a.Result.ImageUploadId} ~ {a.Url}"));
-
 }
