@@ -1,13 +1,6 @@
-﻿using Dolo.MovieStarPlanet;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Dolo.MovieStarPlanet;
 using System.Windows.Forms;
+using System;
 
 namespace MovieStarPlanet
 {
@@ -56,7 +49,7 @@ namespace MovieStarPlanet
             ReleaseControl();
 
             label1.Text = $"StarCoins: {Result.Actor.Starcoins:N0}";
-            label2.Text = $"Diamonds: {Result.Actor.Starcoins:N0}";
+            label2.Text = $"Diamonds: {Result.Actor.Diamonds:N0}";
             label3.Text = $"Level: {Result.Actor.Level}";
 
             MessageBox.Show($"Hello! {Result.Actor.Username}", "mspLib Test", MessageBoxButtons.OK, MessageBoxIcon.Error);
