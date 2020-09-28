@@ -14,7 +14,7 @@
 *Install the msplib with the console **nuget package manager** or browse **MovieStarPlanet** in **visual studio nuget manager***
 
 ```
-Install-Package Dolo.msplib -Version 6.1.1
+Install-Package Dolo.msplib
 ```
 
 # Start
