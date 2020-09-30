@@ -4,7 +4,10 @@
 [![Discord Server](https://img.shields.io/discord/708318629112053841?color=darkcyan&label=Discord&logo=Discord&logoColor=white&style=flat-square)](https://discord.gg/dolo) 
 [![Nuget](https://img.shields.io/nuget/v/Dolo.msplib?logo=nuget&style=flat-square)](https://www.nuget.org/packages/Dolo.msplib/)
 
-![Info](https://placehold.it/15/F09B9D/000000?text=+) `This is a library for developing MovieStarPlanet tools. and no hack or cheat. We do not offer ready-made programs.`  
+![Info](https://placehold.it/15/F09B9D/000000?text=+) `This is a library for developing MovieStarPlanet tools. and no hack or cheat.`   
+![Info](https://placehold.it/15/F09B9D/000000?text=+) `We do not offer ready-made programs.`    
+![Info](https://placehold.it/15/F09B9D/000000?text=+) `Learn the basics of c# to use this.`  
+
 
 > *the most powerful and best library for moviestarplanet.*   
 > *with msplib you can easily create tools or other things for moviestarplanet.* 
