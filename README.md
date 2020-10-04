@@ -58,4 +58,4 @@ for any help join our discord server or [create a new issue](https://github.com/
 
 # Changelog
 
-for release notes or changelog examples [click here](https://github.com/cydolo/mspLib/blob/master/msp/changelog.md)
+for release notes or changelog examples [click here](https://github.com/cydolo/mspLib/blob/master/CHANGELOG.md)
