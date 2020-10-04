@@ -1,3 +1,7 @@
+##### 6.4.1
+
+- hotfix ~ a invalid key in login result has been fixed.
+
 ##### 6.3.0
 
 - Added new property Image in Login result to get the image of a actor
