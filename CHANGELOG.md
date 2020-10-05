@@ -1,3 +1,7 @@
+##### 6.5.0
+
+- hotfix ~ invalid set property has been fixed.
+
 ##### 6.4.1
 
 - hotfix ~ a invalid key in login result has been fixed.
