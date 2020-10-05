@@ -44,7 +44,7 @@ var mspLogin = await mspClient.Login(new TicketLogin() {
    Ticket = "Ticket"
 });
 
-Console.WriteLine(mspLogin.LoggedIn ? mspLogin.Actor.Starcoins.ToString() : mspLogin.Status);
+Console.WriteLine(mspLogin.LoggedIn ? mspLogin.Actor.StarCoins.ToString() : mspLogin.Status);
 
 ```
 
