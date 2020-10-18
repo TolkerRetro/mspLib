@@ -16,19 +16,14 @@
 
 # Installation
 
-Install the msplib with the console **nuget package manager** or browse **MovieStarPlanet** in **visual studio nuget manager**
-
+Use [Nuget](https://www.nuget.org/profiles/cydolo) to install the [mspLib](https://msplib.cbkdz.eu/installation). 
 ```
 Install-Package Dolo.msplib
 ```
 
 # Start
 
-as soon as the library is installed you can start directly. First you have to create an instance of the class **MspClient**. the parameter is the server where the client connects. to be able to use the commands. you have to be logged in.   
-
-You can login with **username** &' **password** or with the **username** &' **ticket**
-
-> **simple login with keepalive**
+> A Simple way to login with KeepAlive.
 
 ```cs
 
