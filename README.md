@@ -1,18 +1,18 @@
 
 ![msplib](https://files.catbox.moe/lq201t.jpg)
 
+
 [![Discord Server](https://img.shields.io/discord/708318629112053841?color=darkcyan&label=Discord&logo=Discord&logoColor=white&style=flat-square)](https://discord.gg/dolo) 
 [![Nuget](https://img.shields.io/nuget/v/Dolo.msplib?logo=nuget&style=flat-square)](https://www.nuget.org/packages/Dolo.msplib/)
-[![npm](https://img.shields.io/npm/v/msplib?logo=npm&style=flat-square)](https://www.npmjs.com/package/msplib)
-
+[![npm](https://img.shields.io/npm/v/msplib?logo=npm&style=flat-square)](https://www.npmjs.com/package/msplib)  
 **for nodejs version of msplib [click here](https://www.npmjs.com/package/msplib)**
+
+> *the most powerful and best library for moviestarplanet.*   
+> *with msplib you can easily create tools or other things for moviestarplanet.*   
 
 ![Info](https://placehold.it/15/F09B9D/000000?text=+) `This is a library for developing MovieStarPlanet tools. and no hack or cheat.`   
 ![Info](https://placehold.it/15/F09B9D/000000?text=+) `We do not offer ready-made programs.`    
 ![Info](https://placehold.it/15/F09B9D/000000?text=+) `Learn the basics of c# &' js to use this.`  
-
-> *the most powerful and best library for moviestarplanet.*   
-> *with msplib you can easily create tools or other things for moviestarplanet.* 
 
 # Installation
 
