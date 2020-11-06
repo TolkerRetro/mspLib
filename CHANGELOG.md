@@ -1,3 +1,16 @@
+##### 6.7.0
+
+- Big changes have been made. everything has been improved and rewritten.
+- Added Support to view Json response from a Request.
+- Added better handling of classes and properties.
+- Changed the access modifier for many classes.
+- Changed `ServiceCommands` class to `MspClientCommands`
+- Changed `ServiceHelper` class to `MspClientHelper`
+- Fixed CheckSum where the `DateTime` was invalid.
+- Fixed Nullreferenz issues while sending custom commands.
+- Fixed issues while parsing the responses of requests.
+- Fixed a issue where the server was incorrect after using multiple instances.
+
 ##### 6.5.0
 
 - hotfix ~ invalid set property has been fixed.
