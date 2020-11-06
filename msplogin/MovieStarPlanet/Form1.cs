@@ -14,10 +14,10 @@ namespace MovieStarPlanet
         {
             InitializeComponent();
 
-            foreach (var server in ServerParser.GetAllServer())
-                comboBox1.Items.Add(server.ToString());      
+            foreach (var server in MspClientHelper.GetAllServer())
+                comboBox1.Items.Add(server.ToString());
 
-         }
+        }
 
         private async void button1_Click(object sender, EventArgs e)
         {
@@ -35,10 +35,10 @@ namespace MovieStarPlanet
 
             LockControl();
 
-            mspClient = new MspClient(new MspClientSocket()
+            mspClient = new MspClient(new MspClientOption
             {
                 KeepAlive = true,
-                Server = ServerParser.ParseToServer(comboBox1.SelectedItem.ToString())
+                Server = MspClientHelper.ParseToServer(comboBox1.SelectedItem.ToString())
             });
 
             var Result = await mspClient.Login(textBox1.Text, textBox2.Text);
@@ -88,7 +88,7 @@ namespace MovieStarPlanet
 
         private async void button2_Click(object sender, EventArgs e)
         {
-            if(mspClient is null || !mspClient.User.LoggedIn)
+            if (mspClient is null || !mspClient.User.LoggedIn)
             {
                 MessageBox.Show($"You are not LoggedIn!", "mspLib Test", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
