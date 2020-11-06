@@ -1,21 +1,21 @@
 // load obfuscated picture from eg. looks, images, movies ..
 
 static async Task Main() {
-	
-	  var R = await mspClient.GetNewUploads(100);
 
-	  if (!R.Success) return;
+            var R = await mspClient.GetNewUploads(100);
 
-	  List<(string Url, GetNewUploadsResult Result)> ImageData = new List<(string Url, GetNewUploadsResult Result)>();
+            if (!R.Success) return;
 
-	  R.Result.ForEach(async a => { 
-   
-          (Image Image, string ImageUrl) img = await ServiceCommands.LoadObfuscatedImage(a.ImageUploadId, Server.Germany, ObfuscationType.pictureupload);
+            List<(string Url, UploadImage Result)> ImageData = new List<(string Url, UploadImage Result)>();
 
-          if (img.Image != null) 
-	         ImageData.Add((img.ImageUrl, a));
-    
-	});
+            R.Result.Images.ForEach(async a => {
 
-	ImageData.ForEach(a = >Console.WriteLine($ "Image: {a.Result.ImageUploadId} ~ {a.Url}"));
+                (Image Image, string ImageUrl) img = await MspClientCommands.LoadObfuscatedImage(a.Id, Server.Germany, ObfuscationType.pictureupload);
+
+                if (img.Image != null)
+                    ImageData.Add((img.ImageUrl, a));
+
+            });
+
+            ImageData.ForEach(a => Console.WriteLine($"Image: {a.Result.Id} ~ {a.Url}"));
 }
