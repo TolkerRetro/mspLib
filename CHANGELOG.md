@@ -10,6 +10,7 @@
 - Fixed Nullreferenz issues while sending custom commands.
 - Fixed issues while parsing the responses of requests.
 - Fixed a issue where the server was incorrect after using multiple instances.
+- many many more issues has been fixed and improved.
 
 ##### 6.5.0
 
