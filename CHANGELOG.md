@@ -1,5 +1,10 @@
 ##### 6.7.0
 
+- Fixed authentication in CreateAccount method
+- Bug fixes and improvments. 
+
+##### 6.7.0
+
 - Big changes have been made. everything has been improved and rewritten.
 - Added Support to view Json response from a Request.
 - Added better handling of classes and properties.
