@@ -1,4 +1,4 @@
-##### 6.7.0
+##### 6.7.0.1
 
 - Fixed authentication in CreateAccount method
 - Bug fixes and improvments. 
