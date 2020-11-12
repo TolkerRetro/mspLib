@@ -40,9 +40,9 @@ for more examples [click here](https://github.com/cydolo/mspLib/tree/master/msp)
 
 # Documentation
 
-documentation of the msplib can be found here [msplibdoc](https://msplib.cbkdz.eu)
+documentation coming soon.
  
-for any help join our discord server or [create a new issue](https://github.com/cydolo/mspLib/issues)
+for any help join our [discord server](https://discord.gg/dolo) or [create a new issue](https://github.com/cydolo/mspLib/issues)
 
 # Changelog
 
